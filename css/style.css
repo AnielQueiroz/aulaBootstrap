@@ -1,0 +1,33 @@
+body{
+    font: 20px Arial, sans-serif;
+}
+
+.barra{
+    max-width: 100%;
+}
+
+.navbar-brand{
+    margin-left: 10%;
+}
+
+.navbar{
+    background-color: #688A08;
+}
+
+#profile{
+    border-radius: 50px;
+}
+
+.quemSomos{
+    background-color: #8181F7;
+    color: white;
+}
+
+.margin{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.parceiros{
+    background-color: #58FAF4;
+}
