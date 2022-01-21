@@ -12,7 +12,7 @@
 /*elementos base*/
 body{
    background: var(--preta); 
-   font-family: 'Times New Roman', Times, serif;
+   font-family: 'Arial', Times, serif;
    color: white;
 }
 
@@ -42,9 +42,10 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/nana.jpg');
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/eoventolevou2.jpg');
 
     height: 400px;
+    width: 100%;
     background-size: cover;
 
     display: flex;
@@ -94,8 +95,21 @@ header nav a:hover{
     width: 70%;
 }
 
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+.box-filme:hover{
+    opacity: 50%;
+    transition: 0.5s;
+}
+
 .box-filme{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.titulo-secao{
+    padding: 10px
 }
