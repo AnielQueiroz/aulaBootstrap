@@ -113,3 +113,9 @@ header nav a:hover{
 .titulo-secao{
     padding: 10px
 }
+
+.rodape{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
