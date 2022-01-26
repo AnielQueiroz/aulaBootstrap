@@ -1,8 +1,40 @@
-body{
-    color: grey;
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body{
+    /*background-image: url('/assets/img/aa.png');
+    */
+    background: linear-gradient(rgba(175, 165, 165, 0.5), rgba(0,0,0,.50)100%), url('/assets/img/aa.png');
+
+    background-size: 100% 350%;
 }
 
 .container{
     text-align: center;
     margin-top: 20%;
+    background: url('/assets/img/pexels-kulbir-10220774.jpg');
+}
+
+button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    background-color: rgb(241, 214, 214);
+    color: black;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#currentNumber{
+    margin: 0 20px;
+    font-size: 16pt;
+}
+
+button:hover{
+   background-color: darkgray;
+   cursor: pointer;
+   transition: 0.5s;
 }
