@@ -1,0 +1,23 @@
+body{
+    background: #939393;
+}
+
+.page-title{
+    text-align: center;
+    margin-top: 50%;
+}
+
+#mode-selector{
+    margin-left: 45%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#mode-selector:hover{
+    background-color: bisque;
+}
+
