@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <!-- multistep form -->
+<form id="msform">
+    <!-- progressbar -->
+    <ul id="progressbar">
+      <li class="active">Configurações da Conta</li>
+      <li>Redes Sociais</li>
+      <li>Detalhes Pessoais</li>
+    </ul>
+    <!-- fieldsets -->
+    <fieldset>
+      <h2 class="fs-title">Crie sua conta</h2>
+      <h3 class="fs-subtitle">Este é o 1º passo</h3>
+      <label for="email">Email</label>
+      <input type="text" name="email" placeholder="Email" required/>
+      <label for="pass">Senha</label>
+      <input type="password" name="pass" placeholder="Senha" required/>
+      <label for="cpass">Confirme a Senha</label>
+      <input type="password" name="cpass" placeholder="Confirme a Senha" required/>
+      <input type="button" name="next" class="next action-button" value="Proximo Passo" />
+    </fieldset>
+    <fieldset>
+      <h2 class="fs-title">Redes Sociais</h2>
+      <h3 class="fs-subtitle">Você nas redes sociais</h3>
+      <input type="text" name="twitter" placeholder="Twitter" />
+      <input type="text" name="facebook" placeholder="Facebook" />
+      <input type="text" name="gplus" placeholder="Google Plus" />
+      <input type="button" name="previous" class="previous action-button" value="Anterior" />
+      <input type="button" name="next" class="next action-button" value="Next" />
+    </fieldset>
+    <fieldset>
+      <h2 class="fs-title">Detalhes Pessoais</h2>
+      <h3 class="fs-subtitle">Frase de efeito</h3>
+      <input type="text" name="fname" placeholder="Primeiro Nome" required/>
+      <input type="text" name="lname" placeholder="Sobrenome" required/>
+      <input type="text" name="phone" placeholder="Telefone" required/>
+      <textarea name="address" placeholder="Endereço"></textarea>
+      <input type="button" name="previous" class="previous action-button" value="Anterior" />
+      <input type="submit" name="submit" class="submit action-button" value="Enviar" />
+    </fieldset>
+  </form>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
